@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:context="com.joannahulek.babylangu.activities.EditorActivity">
+
+        <LinearLayout
+            android:id="@+id/kid_editor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kid_editor_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kid" />
+
+            <EditText
+                android:id="@+id/kid_name_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/name" />
+
+            <TextView
+                android:id="@+id/kid_birth_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_date_of_birth" />
+
+            <DatePicker
+                android:id="@+id/kid_birth_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/kid_img_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/wording_editor_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kid_editor_layout"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/wording_editor_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wording" />
+
+            <EditText
+                android:id="@+id/wording_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/new_wording" />
+
+            <EditText
+                android:id="@+id/wording_meaning_input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/meaning" />
+
+            <Button
+                android:id="@+id/wording_voice_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_voice" />
+
+            <Button
+                android:id="@+id/wording_img_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_image" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

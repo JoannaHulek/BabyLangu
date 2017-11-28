@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BabyLangu</string>
+    <string name="kid">Kid</string>
+    <string name="name">Name</string>
+    <string name="select_image">Select image</string>
+    <string name="new_wording">New wording</string>
+    <string name="wording">Wording</string>
+    <string name="meaning">Meaning</string>
+    <string name="add_voice">Add voice</string>
+    <string name="select_date_of_birth">Select date of birth:</string>
+</resources>
