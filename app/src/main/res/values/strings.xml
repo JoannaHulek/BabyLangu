@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">BabyLangu</string>
+    <string name="empty_list">Empty list</string>
+    <string name="any_dictionaries">You don\'t have\nany dictionaries.</string>
     <string name="kid">Kid</string>
     <string name="name">Name</string>
     <string name="select_image">Select image</string>
